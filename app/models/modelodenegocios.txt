@@ -1,0 +1,3 @@
+* Uma negociação não pode ser modificada após sua criação;
+* Obrigatoriamente terá data, quantidade e valor definidos;
+* O volume da negociação se dá pelo cálculo de quantidade multiplicado pelo valor;
