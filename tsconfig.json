@@ -2,7 +2,8 @@
     "compilerOptions": {
         "outDir": "dist/js", // Local aonde o arquivo JS compilado do TypeScript será gerado;
         "target": "ES6", // tipo de ECMAScript em que o TypeScript será compilado;
-        "noEmitOnError": true // não gerará um arquivo JS enquanto o arquivo TS tiver erro;
+        "noEmitOnError": true, // não gerará um arquivo JS enquanto o arquivo TS tiver erro;
+        "noImplicitAny": true
     },
     "include": ["app/**/*"] // Local de origem do arquivo TS a ser compilado;
 }
